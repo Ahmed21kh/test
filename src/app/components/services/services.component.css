@@ -1,0 +1,24 @@
+/* start services */
+.services
+{
+  padding: 70px 0 0 0;
+}
+.services h2{
+margin: 0 0 50px;
+
+}
+.services .fa{
+  color: #08526d;
+  float: left;
+
+  margin-right: 5%;
+}
+.services h4{
+  float: left;
+  width: 75%;
+}
+.services .item{
+  margin: 34px 0 31px 0px;
+}
+
+/* end services */

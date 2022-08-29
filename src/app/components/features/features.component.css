@@ -1,0 +1,37 @@
+*{
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+
+/* start features */
+
+.features{
+  padding: 50px 0;
+}
+.features i{
+  background-color: #ed1d24;
+  color: white;
+  padding: 12px;
+  margin-bottom: 10px;
+
+}
+.features h2{
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 80px;
+  margin-top: 40px;
+}
+.features h3{
+  color: #08526d;
+  font-size: 22px;
+}
+.features p{
+  color: #5d5d5d;
+  margin-bottom: 40px;
+}
+
+ /* end features */

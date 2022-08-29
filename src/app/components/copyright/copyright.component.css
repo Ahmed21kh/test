@@ -1,0 +1,23 @@
+/* start copyright */
+.copyright {
+  position: relative;
+  border-top: 1px solid #727272;
+  padding: 20px;
+  background-color: #343a40;
+  color: white;
+
+}
+
+.copyright ul{
+ margin: 0;
+}
+.copyright ul li{
+ display: inline-block;
+}
+.copyright ul li a{
+ color: rgb(255, 255, 255);
+ display: inline-block;
+ margin-left: 20px;
+ font-size: 18px;
+}
+/* end copyright */

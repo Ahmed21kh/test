@@ -1,0 +1,31 @@
+*{
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+  /* start statistics */
+
+  .stats{
+    padding: 100px 0;
+    color: #08526d;
+  }
+  .stats .stats-box{
+    margin-bottom: 40px;
+  }
+  .stats span{
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+
+  }
+  .stats p{
+    color: #ed1d24;
+    font-size: 20px;
+    margin: 0;
+  }
+
+  /* end statistics */

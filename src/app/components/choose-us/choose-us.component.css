@@ -1,0 +1,41 @@
+*{
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+
+/* start why choose us */
+.choose-us img{
+  max-width: 100%;
+ }
+ .choose-us .info{
+  padding: 0;
+ }
+ .choose-us .info:last-child{
+  background-color: #08526d;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+ }
+ .choose-us .h1{
+  margin: 40px;
+ }
+ .choose-us p{
+  margin: 40px;
+  line-height: 2;
+  font-size: 18px;
+ }
+ .choose-us .read-more{
+  display: inline-block;
+  padding: 8px 20px;
+  margin: 0 0 0 40px;
+  background-color: #ed1d24;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+ }
+ /* end why choose us */

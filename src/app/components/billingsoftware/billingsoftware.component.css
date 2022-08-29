@@ -1,0 +1,84 @@
+/* start services */
+.billing
+{
+  padding: 81px 0px 0px 0;
+}
+.billing h2{
+margin: 0 0 50px;
+
+}
+.billing .info{
+  margin-bottom: 327px;
+
+}
+
+
+/* end services */
+
+/* start ourclients */
+.our-clients
+
+{
+  margin-top:-223px;
+    background: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-bottom: 36px;
+
+
+}
+.classs{
+  padding: 3px 0 ;
+  width: 600px;
+  margin: auto;
+  overflow: hidden;
+  border: 1px solid #d3d3d3
+}
+@media(max-width:768px){
+  .classs{
+
+    width: 480px;
+    margin-bottom:-10px;
+
+  }
+}
+.our-clients ul{
+  width: 2000px;
+  position: relative;
+  animation: sliding 7s ease infinite;
+}
+.our-clients ul:hover{
+  animation-play-state: paused;
+}
+.our-clients ul li{
+  float: left;
+  position: relative;
+  padding: 20px;
+  cursor: pointer;
+}
+
+@keyframes sliding{
+  0%{left: 0;}
+  20%{left: -300px;}
+  40%{left: -600px;}
+  60%{left: -1200px;}
+  80%{left: -1200px;}
+
+}
+.our-clients img
+{
+
+    filter: alpha(opacity=40);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+.our-clients img:hover
+{
+    opacity: 1;
+    -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+}
+/* end ourclients */
+

@@ -1,0 +1,91 @@
+*{
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+
+/* start table prices */
+.table-prices{
+  padding:100px 0 100px ;
+  background-color: #f7f7f7;
+ }
+ .table-prices h2{
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+ }
+ .table-prices .descrption{
+  line-height: 1.6;
+  font-size: 20px;
+  width: 80%;
+  margin: 0 auto 85px;
+  color: #6a6a6a;
+ }
+ @media(max-width:992px){
+  .table-prices .descrption{
+    width: 100%;
+    margin-bottom: 40px;
+
+   }
+ }
+ .table-prices .card .card-body{
+  padding: 0;
+ }
+ .table-prices .card .card-title{
+  font-size: 25px;
+  line-height: 1.5;
+  color: #08526d;
+  margin-top: 40px;
+ }
+ .table-prices .card{
+  margin-bottom: 30px;
+ }
+ .table-prices .card .card-text{
+color: #08526d;
+margin-bottom: 5px;
+margin: 30px 0 10px;
+padding: 10px;
+background-color: #f7f7f7;
+font-size: 30px;
+font-weight: bold;
+ }
+ .table-prices .card .card-text span{
+  font-size: 14px;
+  text-transform: uppercase;
+ }
+ .table-prices .list-group-item{
+  border: none;
+ }
+ .table-prices .card .card-link{
+  background-color:#ed1d24;
+  color:#fff ;
+  font-weight: bold;
+  font-size: 18px;
+  display:inline-block;
+  padding:10px 15px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.table-prices .card.corporate {
+  position: relative;
+  top: -20px;
+}
+@media(max-width:992px){
+  .table-prices .card.corporate {
+
+    top: 0px;
+  }
+}
+.table-prices .card.corporate .card-text{
+background-color: #ed1d24;
+color: #fff;
+
+}
+.table-prices .card.corporate .card-link{
+  background-color: #08526d;
+
+}
+ /* end table prices */

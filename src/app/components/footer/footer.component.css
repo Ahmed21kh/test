@@ -1,0 +1,139 @@
+*{
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+
+/* start footer */
+.footer{
+  padding: 53px 0px 0px 0;
+  background-color: #343a40;
+ }
+
+
+
+.footer .site-info h2
+{
+  color: #ffffff;
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+
+.footer .site-info p{
+  line-height: 1.8;
+  color: #fbfbfb;
+  width: 70%;
+}
+@media(max-width:992px){
+
+.footer .site-info p{
+  line-height: 1.8;
+  color: #fbfbfb;
+  width: 100%;
+}
+}
+.footer .site-info img{
+  float: left;
+  margin-right: 13px;
+  margin-left: -29px;
+  background: linear-gradient(145deg, #3B4248, #2D3238);
+  border-radius: 100%;
+  box-shadow: 22.22px 22.22px 35px #2B3035, -22.22px -22.22px 35px #3D444B;
+  padding: 10px 0 0 0;
+}
+.footer .site-info a{
+ color: #08526d;
+ font-size: 15px;
+ font-weight: bold;
+}
+.footer .helpful-links h2,
+.footer .contact h2
+{
+  color: #ffffff;
+  font-size: 22px;
+  margin-bottom: 60px;
+}
+.footer .site-info h3{
+  color: #fff;
+}
+.footer .helpful-links ul li{
+
+  margin-bottom: 5px;
+}
+.footer .helpful-links ul a{
+ text-decoration: none;
+ color: #fff;
+}
+.footer .helpful-links ul li:before {
+
+  font-family: 'fontAwesome';
+  content: "\f054";
+  margin-right: 9px;
+  font-size: 12px;
+  color: #ffffff;
+  position: relative;
+  top: -1px;
+
+}
+.footer .contact ul li{
+  margin-bottom: 24px;
+  color: #fff;
+
+}
+@media(max-width:992px){
+  .footer .helpful-links h2,
+.footer .contact h2
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer .contact ul li{
+  margin-bottom: 5px;
+
+}
+}
+
+.footer .img-thumbnail
+{
+    background: rgba(0,0,0,0.2);
+    border: 1px solid #444;
+    margin-bottom: 5px;
+
+
+
+}
+
+ /* end footer */
+
+ /* start copyright */
+ .copyright {
+  border-top: 1px solid #727272;
+  padding: 20px;
+  background-color: #343a40;
+  color: white;
+}
+.copyright ul{
+ margin: 0;
+}
+.copyright ul li{
+ display: inline-block;
+}
+.copyright ul li a{
+ color: rgb(255, 255, 255);
+ display: inline-block;
+ margin-left: 20px;
+ font-size: 18px;
+}
+/* end copyright */
+@media (min-width: 992px)
+{
+.col-lg-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 0px;
+}
+
+}
+
